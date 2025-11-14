@@ -1,0 +1,21 @@
+# Local environment
+.env
+.env.*
+
+# Playwright storage states / session data
+storage/
+*.storage.json
+*_session.json
+
+# Build artifacts
+browseragent
+
+# Logs and run artifacts
+*.log
+*.trace
+*.har
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
